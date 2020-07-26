@@ -89,7 +89,7 @@ class noteList extends Component{
     getData(){
       const self=this;
       self.setState({
-        start_page:++self.state.start_page,
+        start_page:++self.state.start_page, 
         loading:true
       })
       _noteList({
